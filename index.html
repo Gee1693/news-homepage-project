@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | News homepage</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!--Masthead-->
+      <header class="masthead">
+        <div class="header-nav">
+          <div class="logo">
+            <img src="assets/images/logo.svg" alt="The logo" />
+          </div>
+          <nav class="top-nav desktop">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">New</a></li>
+              <li><a href="#">Popular</a></li>
+              <li><a href="#">Trending</a></li>
+              <li><a href="#">Categories</a></li>
+            </ul>
+          </nav>
+          <nav class="top-nav mobile show hide">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">New</a></li>
+              <li><a href="#">Popular</a></li>
+              <li><a href="#">Trending</a></li>
+              <li><a href="#">Categories</a></li>
+            </ul>
+          </nav>
+          <button class="ham-menu">
+            <img
+              src="assets/images/icon-menu.svg"
+              alt="A clickable drop down menu."
+            />
+          </button>
+          <button class="close-menu show hide">
+            <img
+              src="assets/images/icon-menu-close.svg"
+              alt="Button to close nav menu."
+            />
+          </button>
+        </div>
+      </header>
+      <!--Main Content-->
+      <main>
+        <!--Section One-->
+        <section class="section-one">
+          <div class="column-one">
+            <div class="hero-img">
+              <img
+                src="assets/images/image-web-3-desktop.jpg"
+                alt="The hero image"
+              />
+            </div>
+            <div class="section1-text">
+              <div>
+                <h1>The Bright Future of Web 3.0?</h1>
+              </div>
+              <div>
+                <p>
+                  We dive into the next evolution of the web that claims to put
+                  the power of the platforms back into the hands of the people.
+                  But is it really fulfilling its promise?
+                </p>
+                <a href="#" class="read-more">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="column-two">
+            <article class="article-section">
+              <div class="new-section">
+                <h2>New</h2>
+                <div class="news">
+                  <h3>Hydrogen VS Electric Cars</h3>
+                  <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+                </div>
+                <div class="news">
+                  <h3>The Downsides of AI Artistry</h3>
+                  <p>
+                    What are the possible adverse effects of on-demand AI image
+                    generation?
+                  </p>
+                </div>
+                <div class="news">
+                  <h3>Is VC Funding Drying Up?</h3>
+                  <p>
+                    Private funding by VC firms is down 50% YOY. We take a look
+                    at what that means.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section>
+          <div class="section-two">
+            <div class="article-list">
+              <div class="img-section2">
+                <img src="assets/images/image-retro-pcs.jpg" alt="An old pc" />
+              </div>
+              <div class="article-text">
+                <span>01</span>
+                <h3>Reviving Retro PCs</h3>
+                <p>What happens when old PCs are given modern upgrades?</p>
+              </div>
+            </div>
+            <div class="article-list">
+              <div class="img-section2">
+                <img
+                  src="assets/images/image-top-laptops.jpg"
+                  alt="Laptop keyboard"
+                />
+              </div>
+              <div class="article-text">
+                <span>02</span>
+                <h3>Top 10 Laptops of 2022</h3>
+                <p>Our best picks for various needs and budgets.</p>
+              </div>
+            </div>
+            <div class="article-list">
+              <div class="img-section2">
+                <img
+                  src="assets/images/image-gaming-growth.jpg"
+                  alt="A gaming controller"
+                />
+              </div>
+              <div class="article-text">
+                <span>03</span>
+                <h3>The Growth of Gaming</h3>
+                <p>How the pandemic has sparked fresh opportunities.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
